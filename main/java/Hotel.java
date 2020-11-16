@@ -38,3 +38,4 @@ public class Hotel {
         this.rating = 0;
     }
 }
+
