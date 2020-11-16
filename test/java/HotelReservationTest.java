@@ -45,4 +45,9 @@ public class HotelReservationTest {
         Assert.assertEquals("Taj", cheapestHotelByWeekdayRates.hotelName);
         Assert.assertEquals("Mahindra", cheapestHotelByWeekendRates.hotelName);
     }
+    @Test
+    public void givenDetailsIncludingRatings_WhenHotelObjectCreated_ShouldNotBeNull() {
+        Hotel hotel = new Hotel("ITC", 10000, 15000, "2020-01-25", "2020-01-26", 4);
+        Assert.assertNotNull(hotel);
+    }
 }
