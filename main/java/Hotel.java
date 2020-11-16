@@ -6,6 +6,8 @@ public class Hotel {
     public double weekdayRate;
     public double weekendRate;
     public int rating;
+    public double specialWeekdayRate;
+    public double specialWeekendRate;
 
     public Hotel(String hotelName, int weekdayRate) {
         this.hotelName = hotelName;
@@ -38,4 +40,3 @@ public class Hotel {
         this.rating = 0;
     }
 }
-
